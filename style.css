@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#game{
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  margin: auto;
+  overflow: hidden;
+  background-image: url(HD-wallpaper-2d-pixel-art-background-10-sky-cloud-2d-environments-unity-asset-store.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#block{
+  width: 50px;
+  height: 500px;
+  background-color: black;
+  /* background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+ 
+   /* background: conic-gradient(from 180deg, rgba(167, 186, 163, 1.0), rgba(5, 5, 5, 1.0)); */
+/* Created with https://www.css-gradient.com */
+background: #C2C8C9;
+background: -webkit-radial-gradient(bottom left, #C2C8C9, #2A2B29);
+background: -moz-radial-gradient(bottom left, #C2C8C9, #2A2B29);
+background: radial-gradient(to top right, #C2C8C9, #2A2B29);
+    animation: gradient 10s ease;
+  position: relative;
+  left: 400px;
+  animation: block 2s infinite linear;
+}
+@keyframes block{
+  0%{left:400px}
+  100%{left:-50px}
+}
+#hole{
+  width: 50px;
+  height: 150px;
+  background-color: white;
+  /* background-image: url(bluemoon.png); */
+  position: relative;
+  left: 400px;
+  top: -500px;
+  animation: block 2s infinite linear;
+}
+#character{
+  width: 40px;
+  height: 40px;
+  /* background-color: red; */
+  position: absolute;
+  top: 100px;
+  border-radius: 50%;
+
+}
+#character {
+  background-image: url(Concept_warrior_01.png);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}@keyframes conic-gradient{
+  0%{
+      background-position: 0% 50%;
+  }
+  50%{
+      background-position: 100% 50%;
+  }
+  100%{
+      background-position: 0% 50%;
+  }}
+
